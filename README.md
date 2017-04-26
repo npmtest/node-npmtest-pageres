@@ -1,6 +1,6 @@
 # npmtest-pageres
 
-#### test coverage for  [pageres (v4.4.0)](https://github.com/sindresorhus/pageres#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pageres.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pageres) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pageres.svg)](https://travis-ci.org/npmtest/node-npmtest-pageres)
+#### basic test coverage for  [pageres (v4.4.0)](https://github.com/sindresorhus/pageres#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pageres.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pageres) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pageres.svg)](https://travis-ci.org/npmtest/node-npmtest-pageres)
 
 #### Capture website screenshots
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pageres/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pageres/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pageres/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pageres/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pageres/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pageres/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pageres/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pageres/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pageres/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pageres/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pageres/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pageres/build/coverage.html/index.html)
 
@@ -172,7 +172,8 @@
         "rules": {
             "generator-star-spacing": "off"
         }
-    }
+    },
+    "bin": {}
 }
 ```
 
